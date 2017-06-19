@@ -1,0 +1,88 @@
+- name: Twitter
+  identifier: 'https://twitter.com'
+  url: 'https://twitter.com'
+  description: >-
+    Twitter is an online news and social networking service where users post and
+    interact with messages, tweets, restricted to 140 characters.
+  image: 'http://api.integration.tool.apievangelist.com/images/twitter-icon.png'
+  imagewidth: '175'
+  category: Social
+  brand: Twitter
+- name: Facebook
+  identifier: 'https://facebook.com'
+  url: 'https://facebook.com'
+  description: >-
+    Facebook is an American for-profit corporation and an online social media
+    and social networking service based in Menlo Park, California.
+  image: 'http://api.integration.tool.apievangelist.com/images/facebook-icon.png'
+  imagewidth: '125'
+  category: Social
+  brand: Facebook
+- name: Dropbox
+  identifier: 'https://dropbox.com'
+  url: 'https://dropbox.com'
+  description: >-
+    Dropbox simplifies the way you create, share and collaborate. Bring your
+    photos, docs, and videos anywhere and keep your files safe.
+  image: 'http://api.integration.tool.apievangelist.com/images/dropbox-icon.png'
+  imagewidth: '150'
+  category: Storage
+  brand: Dropbox
+- name: Google Drive
+  identifier: 'https://www.google.com/drive/'
+  url: 'https://www.google.com/drive/'
+  description: >-
+    Google Drive is a file storage and synchronization service operated by
+    Google. It allows users to store files in the cloud, synchronize files
+    across devices, and share files. Google Drive encompasses Google Docs,
+    Sheets and Slides, an office suite that permits collaborative editing of
+    documents, spreadsheets, presentations, drawings, forms, and more.
+  image: 'http://api.integration.tool.apievangelist.com/images/google-drive-icon.png'
+  imagewidth: '140'
+  category: Storage
+  brand: Google
+- name: Stripe
+  identifier: 'https://stripe.com'
+  url: 'https://stripe.com'
+  description: >-
+    Stripe is a US technology company, operating in over 25 countries, that
+    allows both private individuals and businesses to accept payments over the
+    Internet.
+  image: 'http://api.integration.tool.apievangelist.com/images/stripe-icon.png'
+  imagewidth: '150'
+  category: Payments
+  brand: Stripe
+- name: Paypal
+  identifier: 'https://www.paypal.com'
+  url: 'https://www.paypal.com'
+  description: >-
+    PayPal Holdings, Inc. is an American company operating a worldwide online
+    payments system that supports online money transfers and serves as an
+    electronic alternative to traditional paper methods like checks and money
+    orders.
+  image: 'http://api.integration.tool.apievangelist.com/images/paypal-icon.png'
+  imagewidth: '125'
+  category: Payments
+  brand: Paypal
+- name: Google Sheets
+  identifier: 'https://www.google.com/sheets/about/'
+  url: 'https://www.google.com/sheets/about/'
+  description: >-
+    Google Sheets is part of the Google software suite, providing an online
+    spreadsheet application that is stored in Google Drive.
+  image: >-
+    http://api.integration.tool.apievangelist.com/images/google-spreadsheet-icon.png
+  imagewidth: '135'
+  category: Spreadsheets
+  brand: Google
+- name: Microsoft Excel
+  identifier: 'https://office.microsoft.com/excel/'
+  url: 'https://office.microsoft.com/excel/'
+  description: >-
+    Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS,
+    Android and iOS. It features calculation, graphing tools, pivot tables, and
+    a macro programming language called Visual Basic for Applications.
+  image: 'http://api.integration.tool.apievangelist.com/images/excel-icon.png'
+  imagewidth: '125'
+  category: Spreadsheets
+  brand: Microsoft

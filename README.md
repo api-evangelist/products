@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# API Integration Page & API
 
-You can use the [editor on GitHub](https://github.com/api-evangelist/products/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a sample data driven API integrations page that is hosted on Github, making it something that any API provider can fork and easily put to use, showing the possible integrations with other APIs available when you use their APIs.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project is <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}">forkable using the Github repository</a>, and will run on any site using Jekyll, which makes Github Pages a very suitable place to run data and API driven solutions like this.
 
-### Markdown
+There are two API integrations pages available here, <a href="http://api.integration.tool.apievangelist.com/">one for a detailed listing</a>, and <a href="http://api.integration.tool.apievangelist.com/integrations-icons/">another for a more icon based listing</a>. Both use Liquid to access the YAML integrations data store in <a href="https://github.com/api-evangelist-tools/api-integration/tree/master/_data">the _data folder</a> for the project.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In addition to human listing pages, that can run in any API website or portal, there is an API available for accessing API integrations in a machine-readable way. I provide endpoints for filtering by category, and will be adding other endpoints in future versions.
 
-```markdown
-Syntax highlighted code block
+While the integrations YAML data is stored in <a href="https://github.com/api-evangelist-tools/api-integration/tree/master/_data">the _data folder</a> within the Github repository for this site, the data is managed via the Google Spreadsheet, and synced by running the pull spreadsheet script for integrations with a valid Github OAuth token--when successful, it updates the YAML data store with the latest data.
 
-# Header 1
-## Header 2
-### Header 3
+While not 100% documented, this site is meant to be forked, and reskinned with your own graphical website look, and managed with your own data, showing what integrations are available for your API platform. You can add a subdomain to the cname for the Github repo, making it a standalone API integration page that matches the rest of your API website or portal.
 
-- Bulleted
-- List
+If you have any questions, or would like me to deploy an API integration page for your API, you can submit <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/issues">a Github Issue for the project</a>, and I'll get back to you with more information.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/api-evangelist/products/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Project Website: http://api.integration.tool.apievangelist.com/
